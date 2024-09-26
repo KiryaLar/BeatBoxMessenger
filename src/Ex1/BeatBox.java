@@ -23,7 +23,7 @@ public class BeatBox {
     public static void main(String[] args) {
         BeatBox beatBox = new BeatBox();
         beatBox.buildGUI();
-        System.out.println("  ");
+        System.out.println("v     ");
     }
 
     public void buildGUI() {
