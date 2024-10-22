@@ -1,4 +1,4 @@
-package Ex1;
+package RapGod;
 
 import javax.sound.midi.*;
 import javax.swing.*;
