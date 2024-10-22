@@ -36,7 +36,7 @@ public class MusicServer {
             Object o1 = null;
             try {
 
-                while (o1 = in.readObject() != null) {
+                while ((o1 = in.readObject()) != null) {
                     o2 = in.readObject();
                     System.out.println("read two objects");
                     tellEveryone(o1, o2);
